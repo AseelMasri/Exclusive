@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/swiper.css"/>
+  <title>Home Page</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- شعار -->
+      <a class="navbar-brand" href="#">Exclusive</a>
+
+      <!-- زر البارس -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarContent"
+        aria-controls="navbarContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- المحتوى القابل للطي -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- روابط التنقل -->
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex gap-4">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./assets/Account/login.html">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./assets/Account/register.html">Sign Up</a>
+          </li>
+        </ul>
+
+        <!-- البحث والأيقونات -->
+        <div class="d-flex align-items-center">
+          <div class="search me-3">
+            <form class="w-100 position-relative">
+              <input type="search" placeholder="What are you looking for?"  />
+              <i class="fas fa-search"></i>
+            </form>
+          </div>
+          <div class="icon-container d-flex align-items-center">
+            <a href="#" class="me-3"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="mt-5">
+    <section class="hero"> 
+       <div class="container mb-5">
+      <div class="heroContent d-flex align-items-start">
+        <!-- Sidebar -->
+        <div class="sidebar flex-shrink-0">
+          <ul>
+            <li>Woman's Fashion <span class="arrow">›</span></li>
+            <li>Men's Fashion <span class="arrow">›</span></li>
+            <li>Electronics <span class="arrow">›</span></li>
+            <li>Home & Lifestyle <span class="arrow">›</span></li>
+            <li>Medicine <span class="arrow">›</span></li>
+            <li>Sports & Outdoor <span class="arrow">›</span></li>
+            <li>Baby’s & Toys <span class="arrow">›</span></li>
+            <li>Groceries & Pets <span class="arrow">›</span></li>
+            <li>Health & Beauty <span class="arrow">›</span></li>
+          </ul>
+        </div>
+      
+        <!-- Slider -->
+        <div class="slider-container flex-grow-1">
+          <div class="slide active">
+            <div class="slide-content">
+              <div class="brand">
+               <img src="./assets/images/public/AppleIcon.svg"/>
+               <span> iPhone 14 series</span>
+              </div>
+              <h2>Up to 10%<br>off Voucher</h2>
+              <a href="#" class="shop-btn">
+                Shop Now
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                  <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+            <div class="slide-image">
+              <img src="./assets/images/public/iphone.png" alt="iPhone 14 series" />
+            </div>
+          </div>
+          <div class="slide ">
+            <div class="slide-content">
+              <div class="brand">
+               <img src="./assets/images/public/AppleIcon.svg"/>
+                iPhone 13 series
+              </div>
+              <h2>Up to 13%<br>off Voucher</h2>
+              <a href="#" class="shop-btn">
+                Shop Now
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                  <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+            <div class="slide-image">
+              <img src="./assets/images/public/iphone.png" alt="iPhone 14 series" />
+            </div>
+          </div>
+          <div class="slide ">
+            <div class="slide-content">
+              <div class="brand">
+               <img src="./assets/images/public/AppleIcon.svg"/>
+                iPhone 12 series
+              </div>
+              <h2>Up to 12%<br>off Voucher</h2>
+              <a href="#" class="shop-btn">
+                Shop Now
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                  <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+            <div class="slide-image">
+              <img src="./assets/images/public/iphone.png" alt="iPhone 14 series" />
+            </div>
+          </div>
+          <div class="slide ">
+            <div class="slide-content">
+              <div class="brand">
+               <img src="./assets/images/public/AppleIcon.svg"/>
+                iPhone 11 series
+              </div>
+              <h2>Up to 11%<br>off Voucher</h2>
+              <a href="#" class="shop-btn">
+                Shop Now
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                  <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+            <div class="slide-image">
+              <img src="./assets/images/public/iphone.png" alt="iPhone 14 series" />
+            </div>
+          </div>
+      
+          <!-- Dots -->
+          <div class="dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="flash">
+      <div class="container my-5">
+        <div class="Sales d-flex align-items-center gap-5 mb-3">
+          <div>
+            <div class="section-header">
+              <span class="badge-category"></span>
+              <small class="text-danger fw-semibold">Today’s</small>
+            </div>
+              <h2><strong>Flash Sales</strong></h2>
+          </div>
+          <div class="timer">
+            <div><div>Days</div><span class="days">03</span></div>
+            <div><div>Hours</div><span class="hours">23</span></div>
+            <div><div>Minutes</div><span class="minutes">19</span></div>
+            <div><div>Seconds</div><span class="seconds">56</span></div>
+          </div>
+      </div>
+      
+    
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <span class="discount-badge">-40%</span>
+                <img src="./assets/images/Flash Sales/playstation.png" class="card-img-top" alt="Gamepad">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">HAVIT HV-G92 Gamepad</p>
+                  <p><span class="text-danger">$120</span> <span class="old-price">$160</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(88)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <span class="discount-badge">-40%</span>
+                <img src="./assets/images/Flash Sales/keybord.png" class="card-img-top" alt="Gamepad">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">HAVIT HV-G92 Gamepad</p>
+                  <p><span class="text-danger">$120</span> <span class="old-price">$160</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star " style="color: gray;"></i>
+                    </div>
+                    <span>(75)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <span class="discount-badge">-40%</span>
+                <img src="./assets/images/Flash Sales/tv.png" class="card-img-top" alt="Gamepad">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">HAVIT HV-G92 Gamepad</p>
+                  <p><span class="text-danger">$120</span> <span class="old-price">$160</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(99)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <span class="discount-badge">-40%</span>
+                <img src="./assets/images/Flash Sales/chair.png" class="card-img-top" alt="Gamepad">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">HAVIT HV-G92 Gamepad</p>
+                  <p><span class="text-danger">$120</span> <span class="old-price">$160</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(99)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <span class="discount-badge">-40%</span>
+                <img src="./assets/images/Flash Sales/chair.png" class="card-img-top" alt="Gamepad">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">HAVIT HV-G92 Gamepad</p>
+                  <p><span class="text-danger">$120</span> <span class="old-price">$160</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(99)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <!-- باقي السلايدات بنفس الشكل -->
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    
+      <div class="text-center mt-4">
+        <button class="btn btn-danger p-3">View All Products</button>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+      <div class="section-header">
+        <span class="badge-category"></span>
+        <small class="text-danger fw-semibold">Categories</small>
+      </div>
+      <div class="d-flex justify-content-between">
+      <h2>Browse By Category</h2>
+      <div class="nav-buttons">
+        <button id="prevBtn">&larr;</button>
+        <button id="nextBtn" >&rarr;</button>
+      </div>
+      </div>
+      <div class="categories-wrapper">
+        <div class="category-card active" data-category="phones">
+     
+          <img src="./assets/images/Categories/Category-CellPhone.svg" alt="Phones"/>
+          <span>Phones</span>
+        </div>
+    
+        <div class="category-card" data-category="Computers">
+          <img src="./assets/images/Categories/Category-Computer.svg" alt="Computers"/>
+          <span>Computers</span>
+        </div>
+    
+        <div class="category-card" data-category="SmartWatch">
+        
+        <img src="./assets/images/Categories/Category-SmartWatch.svg" alt="SmartWatch"/>
+          <span>SmartWatch</span>
+        </div>
+    
+        <div class="category-card" data-category="Camera">
+          <img src="./assets/images/Categories/Category-Camera.svg" alt="Camera"/>
+          <span>Camera</span>
+        </div>
+    
+        <div class="category-card" data-category="HeadPhones">
+          <img src="./assets/images/Categories/Category-Headphone.svg" alt="HeadPhones"/>
+          <span>HeadPhones</span>
+        </div>
+    
+        <div class="category-card" data-category="Gaming">
+          <img src="./assets/images/Categories/Category-Gamepad.svg" alt="Gaming"/>
+
+          <span>Gaming</span>
+        </div>
+    
+     
+      </div>
+    </div>
+    </section>
+    <section>
+      <div class="container my-5 ">
+        <div class="Sales d-flex align-items-center gap-5 mb-3 justify-content-between">
+          <div>
+              <h6 class="text-danger">This Month</h6>
+              <h2><strong>Best Selling Products</strong></h2>
+          </div>
+          <div class="text-center mt-4">
+            <button class="btn btn-danger p-3">View All Products</button>
+          </div>
+      </div>
+      
+    
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <img src="./assets/images/Selling Products/jaket.png" class="card-img-top" alt="jaket">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">The north coat</p>
+                  <p><span class="text-danger">$260</span> <span class="old-price">$360</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(65)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <img src="./assets/images/Selling Products/bag.png" class="card-img-top" alt="bag">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">Gucci duffle bag</p>
+                  <p><span class="text-danger">$960</span> <span class="old-price">$1160</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star " style="color: gray;"></i>
+                    </div>
+                    <span>(65)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <img src="./assets/images/Selling Products/music.png" class="card-img-top" alt="music">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">RGB liquid CPU Cooler</p>
+                  <p><span class="text-danger">$160</span> <span class="old-price">$170</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(65)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <img src="./assets/images/Selling Products/ChairBook.png" class="card-img-top" alt="Chair Book">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">Small BookSelf</p>
+                  <p><span class="text-danger">$360</span> <span class="old-price">$160</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(99)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card product-card">
+                <img src="./assets/images/Flash Sales/chair.png" class="card-img-top" alt="chair">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                <div class="card-body">
+                  <p class="card-title mb-1">HAVIT HV-G92 Gamepad</p>
+                  <p><span class="text-danger">$120</span> <span class="old-price">$160</span></p>
+                  <div class="stars d-flex">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(99)</span>
+                  </div>
+                  <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <!-- باقي السلايدات بنفس الشكل -->
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="music">
+      <div class="container">
+        <div class="container-custom">
+          <div class="right-side">
+            <div class="categories">Categories</div>
+            <div class="title">Enhance Your<br>Music Experience</div>
+    
+            <div class="timer" aria-label="Countdown Timer">
+              <div>
+                <span class="days">03</span>
+                <div>Days</div>
+              </div>
+              <div>
+                <span class="hours">23</span>
+                <div>Hours</div>
+              </div>
+              <div>
+                <span class="minutes">19</span>
+                <div>Minutes</div>
+              </div>
+              <div>
+                <span class="seconds">56</span>
+                <div>Seconds</div>
+              </div>
+            </div>
+    
+            <button class="btn-buy">Buy Now!</button>
+          </div>
+          <div class="left-side">
+            <img src="./assets/images/public/music2.png" alt="JBL Speaker" />
+          </div>
+    
+          
+        </div>
+      </div>
+    </section>
+    <section class="product mt-5">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-category"></span>
+          <small class="text-danger fw-semibold">Our Products</small>
+        </div>
+          <h2 class="section-title">Explore Our Products</h2>
+         <div class="row d-flex">
+                <div class="card product-card">
+                  <img src="./assets/images/Products/dogFood.png" class="card-img-top" alt="dogFood">
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                  <div class="card-body">
+                    <p class="card-title mb-1">Breed Dry Dog Food</p>
+                    
+                    <div class="stars d-flex align-items-center flex-wrap">
+                      <span class="text-danger fw-normal">$100</span>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star grayStar"></i>
+                        <i class="fa-solid fa-star grayStar"></i>
+                      </div>
+                      <span>(35)</span>
+                    </div>
+                    <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+                <div class="card product-card">
+                  <img src="./assets/images/Products/camera.png" class="card-img-top" alt="camera">
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                  <div class="card-body">
+                    <p class="card-title mb-1">CANON EOS DSLR Camera</p>
+                    
+                    <div class="stars d-flex align-items-center flex-wrap">
+                      <span class="text-danger fw-normal">$360</span>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star grayStar"></i>
+                        <i class="fa-solid fa-star grayStar"></i>
+                      </div>
+                      <span>(95)</span>
+                    </div>
+                    <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+                <div class="card product-card">
+                  <img src="./assets/images/Products/labtop.png" class="card-img-top" alt="labtop">
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                  <div class="card-body">
+                    <p class="card-title mb-1">ASUS FHD Gaming Laptop</p>
+                    
+                    <div class="stars d-flex align-items-center flex-wrap">
+                      <span class="text-danger fw-normal">$700</span>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star grayStar"></i>
+                        <i class="fa-solid fa-star grayStar"></i>
+                      </div>
+                      <span>(325)</span>
+                    </div>
+                    <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+                <div class="card product-card">
+                  <img src="./assets/images/Products/krem.png" class="card-img-top" alt="krem">
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                  <div class="card-body">
+                    <p class="card-title mb-1">Curology Product Set </p>
+                    
+                    <div class="stars d-flex align-items-center flex-wrap">
+                      <span class="text-danger fw-normal">$500</span>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star grayStar"></i>
+                      </div>
+                      <span>(145)</span>
+                    </div>
+                    <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+                <div class="card product-card">
+                  <img src="./assets/images/Products/car.png" class="card-img-top" alt="car">
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                  <div class="card-body">
+                    <p class="card-title mb-1">Kids Electric Car</p>
+                    
+                    <div class="stars d-flex align-items-center flex-wrap">
+                      <span class="text-danger fw-normal">$960</span>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star "></i>
+                        <i class="fa-solid fa-star "></i>
+                      </div>
+                      <span>(95)</span>
+                    </div>
+                    <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+                <div class="card product-card">
+                  <img src="./assets/images/Products/shose.png" class="card-img-top" alt="shose">
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                  <div class="card-body">
+                    <p class="card-title mb-1">Jr. Zoom Soccer Cleats</p>
+                    
+                    <div class="stars d-flex align-items-center flex-wrap">
+                      <span class="text-danger fw-normal">$1160</span>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star "></i>
+                        <i class="fa-solid fa-star "></i>
+                      </div>
+                      <span>(35)</span>
+                    </div>
+                    <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+                <div class="card product-card">
+                  <img src="./assets/images/Products/playstation2.png" class="card-img-top" alt="playstation">
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                  <div class="card-body">
+                    <p class="card-title mb-1">GP11 Shooter USB Gamepad</p>
+                    
+                    <div class="stars d-flex align-items-center flex-wrap">
+                      <span class="text-danger fw-normal">$660</span>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star "></i>
+                        <i class="fa-solid fa-star "></i>
+                      </div>
+                      <span>(55)</span>
+                    </div>
+                    <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+                <div class="card product-card">
+                  <img src="./assets/images/Products/jaket2.png" class="card-img-top" alt="jaket">
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="eye"><i class="fa-regular fa-eye"></i></div>
+                  <div class="card-body">
+                    <p class="card-title mb-1">Quilted Satin Jacket</p>
+                    
+                    <div class="stars d-flex align-items-center flex-wrap">
+                      <span class="text-danger fw-normal">$660</span>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star "></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <span>(55)</span>
+                    </div>
+                    <button class="btn btn-danger add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+                
+         </div>
+        </div>
+      
+        <div class="text-center mt-4">
+          <button class="btn btn-danger p-3">View All Products</button>
+        </div>
+   
+    </section>
+    <section class="mt-5">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-category"></span>
+          <small class="text-danger fw-semibold">Featured</small>
+        </div>
+        <div class="section-header">
+          <h2 class="section-title">New Arrival</h2>
+        </div>
+        <div class="new-arrival-grid">
+          <div class="card-main">
+            <img src="./assets/images/Products/playstation2.png" alt="PlayStation 5 Black and White" />
+            <div class="card-content">
+              <h3 class="card-title">PlayStation 5</h3>
+              <p class="card-desc">Black and White version of the PS5 coming out on sale.</p>
+              <button class="btn-shop">Shop Now</button>
+            </div>
+          </div>
+         <!-- القسم الأيمن -->
+  <div class="right-grid">
+    <div class="card-women position-relative">
+      <img src="./assets/images/Featured/woman.png" alt="Women's Collections" />
+      <div class="card-content">
+        <h4 class="card-title">Women's Collections</h4>
+        <p class="card-desc">Featured woman collections that give you another vibe.</p>
+        <button class="btn-shop">Shop Now</button>
+      </div>
+    </div>
+
+    <!-- الصور تحت صورة المرأة -->
+    <div class="bottom-right-cards">
+
+      <div class="card-small position-relative">
+        <img src="./assets/images/Featured/spekars.png" alt="Speakers" />
+        <div class="card-content">
+          <h4 class="card-title">Speakers</h4>
+          <p class="card-desc">Amazon wireless speakers</p>
+          <button class="btn-shop" aria-label="Shop Speakers">Shop Now</button>
+        </div>
+      </div>
+
+      <div class="card-small position-relative">
+        <img src="./assets/images/Featured/perform.png" alt="Perfume" />
+        <div class="card-content">
+          <h4 class="card-title">Perfume</h4>
+          <p class="card-desc">GUCCI INTENSE OUD EDP</p>
+          <button class="btn-shop">Shop Now</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+       <div class="features container mt-5">
+          <div class="feature-item">
+            <div class="feature-icon" aria-hidden="true">
+               <img src="./assets/images/public/Services-DELIVERY.svg"/>
+            </div>
+            <div class="feature-title">FREE AND FAST DELIVERY</div>
+            <div class="feature-desc">Free delivery for all orders over $140</div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon" aria-hidden="true">
+              <img src="./assets/images/public/Services-CUSTOMER.svg"/>
+            </div>
+            <div class="feature-title">24/7 CUSTOMER SERVICE</div>
+            <div class="feature-desc">Friendly 24/7 customer support</div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon" aria-hidden="true">
+              <img src="./assets/images/public/Services- GUARANTEE.svg"/>
+            </div>
+            <div class="feature-title">MONEY BACK GUARANTEE</div>
+            <div class="feature-desc">We return money within 30 days</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark text-light pt-4 pb-2 mt-5">
+    <div class="container">
+      <div class="row p-4">
+        <div class="col-md-3 mb-1">
+          <h5>Exclusive</h5>
+          <ul class="list-unstyled">
+            <li class="text-light">Subscribe</li>
+            <li class="text-light">Get 10% off your first order</li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-1">
+          <h5>Support</h5>
+          <ul class="list-unstyled">
+            <li class="text-light">111 Bijoy sarani, Dhaka,,<br>  DH 1515, Bangladesh.</li>
+            <li class="text-light">exclusive@gmail.com</li>
+            <li class="text-light">+88015-88888-9999 </li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-1">
+          <h5>Account</h5>
+          <ul class="list-unstyled">
+            <li class="text-light">My Account</li>
+            <li class="text-light">Login / Register</li>
+            <li class="text-light">Cart </li>
+            <li class="text-light">Wishlist</li>
+            <li class="text-light">Shop</li>
+
+          </ul>
+        </div>
+        <div class="col-md-2 mb-1">
+          <h5>Quick Link</h5>
+          <ul class="list-unstyled">
+            <li class="text-light">Privacy Policy</li>
+            <li class="text-light">Terms Of Use</li>
+            <li class="text-light">FAQ</li>
+            <li class="text-light">Contact</li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>Download App</h5>
+          <span class="d-block mb-2">Save $3 with App New User Only</span>
+          <div class="app d-flex gap-2 align-items-center">
+            <img src="./assets/images/public/Qrcode 1.svg" alt="Qrcode" style="width: 80px; height: auto;">
+            
+            <div class="d-flex flex-column gap-2">
+              <button class="btn p-0 border-0 shadow-none">
+                <img src="./assets/images/public/googlePlay.svg" alt="googlePlay" style="height: 38px;">
+              </button>
+              <button class="btn p-0 border-0 shadow-none">
+                <img src="./assets/images/public/appstore.svg" alt="appstore" style="height: 44px;">
+              </button>
+            </div>
+          </div>
+          <div class="d-flex gap-3 mt-3">
+            <a href="#" class="text-light"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-light"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-light"><i class="fab fa-twitter fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-light">
+      <div class="text-center opacity-50">
+        <small>&copy; Copyright Rimel 2022. All right reserved</small>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"crossorigin="anonymous"></script>
+  <script src="./assets/js/style.js"></script>
+</body>
+</html>

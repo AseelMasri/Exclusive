@@ -1,0 +1,24 @@
+/* swiper.css */
+.swiper {
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    height: auto !important;
+  }
+  .swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--mainColor);
+  z-index: 10;
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--mainColor);
+}
+.swiper-pagination {
+    margin-top: 30px !important; /* أو القيمة اللي بتناسبك */
+  }
